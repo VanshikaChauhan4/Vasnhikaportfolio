@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import stackImage from '../assets/about/Vanshika Chauhan.png';
+import heroBg from "../assets/about/Vanshika Chauhan.png";
 import { heroContent, socialLinks } from '../data/portfolioData';
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
 
         <img
-          src={stackImage}
+          src={heroBg}
           alt="Vanshika Chauhan"
           className="
             absolute
