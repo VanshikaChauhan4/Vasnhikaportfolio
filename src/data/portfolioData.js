@@ -17,14 +17,14 @@ export const personalInfo = {
     secondary: "vanshikachauhan31@gmail.com",
   },
   summary:
-    "Not just doing tutorials — I ship. 200+ LeetCode problems solved, AI-powered UI built and deployed at a university incubator, and full-stack projects shipped end-to-end (auth systems, REST APIs, AI tooling). Looking for an SDE role where I can own problems from day one.",
+    "Not just doing tutorials — I ship. 250+ LeetCode problems solved, AI-powered UI built and deployed at a university incubator, and full-stack projects shipped end-to-end (auth systems, REST APIs, AI tooling). Looking for an SDE role where I can own problems from day one.",
   resumeUrl: "https://1drv.ms/b/c/ed2d1c96110e574d/IQCF5vm3xiNpSI3Y0jSFjMimAfL4E490MEBRcZYeRQVv9is?e=trmyTA", 
 };
 
 export const socialLinks = {
   github: "https://github.com/VanshikaChauhan4",
-  linkedin: "https://linkedin.com/in/vanshika-chauhan",
-  leetcode: "https://leetcode.com/",
+  linkedin: "https://www.linkedin.com/in/vanshika-chauhan-a1a04837a/",
+  leetcode: "https://leetcode.com/u/VanshikaChauhan_/",
 
 };
 
@@ -43,7 +43,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hey, I'm <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Vanshika Chauhan</span> — a full-stack dev who ships production-ready, AI-integrated features instead of just tutorials. 200+ LeetCode problems down, real projects live, always building.`,
+  bio: `Hey, I'm <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Vanshika Chauhan</span> — a full-stack dev who ships production-ready, AI-integrated features instead of just tutorials. 250+ LeetCode problems down, real projects live, always building.`,
   techStack: ["React.js", "Node.js/Express.js", "MongoDB", "LLM Integration"],
 };
 
@@ -86,7 +86,7 @@ export const technicalSkills = {
         { name: "Java", level: 85 },
         { name: "C++", level: 85 },
         { name: "Python", level: 80 },
-        { name: "DSA (200+ LeetCode)", level: 85 },
+        { name: "DSA (250+ LeetCode)", level: 85 },
       ],
     },
     {
@@ -157,7 +157,7 @@ export const internshipsList = [
 
 // Soft Skills Data
 export const softSkillsList = [
-  { name: "Problem Solving", icon: "🧩", desc: "Solved 200+ DSA problems on LeetCode; breaks down complex engineering tasks into clean, logical pieces." },
+  { name: "Problem Solving", icon: "🧩", desc: "Solved 250+ DSA problems on LeetCode; breaks down complex engineering tasks into clean, logical pieces." },
   { name: "Ownership", icon: "🎯", desc: "Ships problems end-to-end — from auth systems to REST APIs to AI tooling — rather than isolated tutorials." },
   { name: "Leadership", icon: "👑", desc: "Led IEEE GEHU's technical committee, organizing workshops and coding competitions for 100+ students." },
   { name: "Communication", icon: "💬", desc: "Coordinated inter-collegiate outreach as Campus Ambassador for eDC, IIT Delhi." },
@@ -175,7 +175,7 @@ export const projects = [
       "A secure, production-style user identity system with JWT-based protected routing, bcrypt password hashing, and end-to-end token validation across the client and server. Designed RESTful auth endpoints (signup, login, refresh, protected routes) with middleware-based access control and persistent sessions backed by MongoDB Atlas. Front end built with protected route guards and token-refresh handling so sessions stay secure without disrupting UX.",
     techTags: ["React.js", "Node.js", "Express.js", "MongoDB Atlas", "JWT"],
     links: {
-      github: "ADD_AUTHNODE_GITHUB_URL",
+      github: "https://github.com/VanshikaChauhan4/Authnode.git",
       demo: null,
     },
     isFlagship: true,
@@ -189,7 +189,7 @@ export const projects = [
       "An AI-powered career assistant that uses LLM APIs to generate personalized resume feedback, skill-gap analysis, and interview-prep guidance from user input. Prompt-driven REST endpoints connect a React front end to an LLM backend, returning structured, context-aware responses instead of static text. Focused on fast response handling, clean state management, and a UI that adapts to the user's profile in real time.",
     techTags: ["React.js", "Node.js/Python", "REST APIs", "LLM Integration"],
     links: {
-      github: "ADD_AI_CAREER_COPILOT_GITHUB_URL",
+      github: "https://github.com/VanshikaChauhan4/AI_career_copilot.git",
     },
     isFlagship: false,
   },
@@ -226,7 +226,7 @@ export const certificates = {
 };
 
 export const education = {
-  degree: "Bachelor of Computer Applications",
+  degree: "UG (Undergraduate)",
   institution: "Graphic Era Hill University, Bhimtal",
   cgpa: "8.8",
   graduation: "2027",

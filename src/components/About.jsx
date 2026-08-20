@@ -1,8 +1,6 @@
 import React from 'react';
-import stackImage from '../assets/about/Vanshika chauhan.png (preview )';
+import stackImage from '../assets/about/VC.png';
 import { aboutContent } from '../data/portfolioData';
-
-// Tech stack SVG icons rendered inline for crisp rendering
 const JavaIcon = () => (
   <div className="flex flex-col items-center gap-2">
     <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128">
@@ -13,7 +11,6 @@ const JavaIcon = () => (
     <span className="text-xs font-bold text-white/70 uppercase tracking-wider">Java</span>
   </div>
 );
-
 const SpringBootIcon = () => (
   <div className="flex flex-col items-center gap-2">
     <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128">
