@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import heroBg from "../assets/about/Vanshika Chauhan.png";
+import heroBg from "../assets/about/hero-temp.png"; // Ensure this path is correct
 import { heroContent, socialLinks } from '../data/portfolioData';
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
       {/* =========================================================
           HERO BACKGROUND IMAGE
           Image location:
-          src/assets/about/Vanshika Chauhan.png
+          src/assets/about/hero-temp.png
 
           Imported above as:
           stackImage
